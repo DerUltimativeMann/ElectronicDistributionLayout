@@ -11,7 +11,7 @@ CF = -Wall -pedantic -ansi
 LF = -lgdi32
 
 # .o files
-OBJ = main.o
+OBJ = main.o windowprocs.o
 
 # Binding the program
 $(PROG): $(OBJ)
